@@ -1,0 +1,165 @@
+@import "mmxins.less";
+
+.topLine__area {
+  width: 100%;
+  border-bottom: 2px solid #f3f3f3;
+  background-color: rgba(var(--primary_rgb), .1);
+}
+
+.topLine {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.topLine__item {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.topLine__item:last-child {
+  margin-right: 0;
+}
+
+.topLine__item_mla {
+  margin-left: auto;
+}
+
+.topLine__item i {
+  color: var(--primary);
+  font-size: 22px;
+}
+
+.topLine__item span {
+  color: var(--primary);
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.topLine__item a {
+  color: var(--primary);
+  font-size: 18px;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.topLine__item a:hover {
+  text-decoration: underline;
+}
+
+.header__area {
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+svg path {
+  stroke: inherit;
+  stroke-width: inherit;
+  fill: inherit;
+}
+
+.logo1 {
+  width: 200px;
+}
+
+.logo1 img {
+  display: block;
+  width: 100%;
+}
+
+
+
+.slogan {
+  margin: 0 0 0 40px;
+  font-family: 'Segoe Script', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.header__btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 30px;
+  color: var(--primary);
+}
+
+.header__btn:hover {
+  color: var(--active);
+}
+
+.header__btn_mla {
+  margin-left: auto;
+}
+
+.header__btn i {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.header__btn span {
+  font-size: 16px;
+}
+
+.topMenuLine__area {
+  width: 100%;
+}
+
+.topMenuLine {
+  display: flex;
+}
+
+.leftSide {
+  width: 250px;
+}
+
+.catBtn {
+  height: 50px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--active);
+  color: #fff;
+}
+
+.catBtn i {
+  font-size: 22px;
+}
+
+.catBtn span {
+  font-size: 22px;
+  margin-left: 20px;
+}
+
+.mainSide {
+  width: calc(100% - 250px);
+  background-color: rgba(var(--primary_rgb), 1);
+}
+
+.topMenu {
+  display: flex;
+}
+
+.topMenu li {
+  list-style: none;
+}
+
+.topMenu li a {
+  text-decoration: none;
+  height: 50px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
